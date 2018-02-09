@@ -134,8 +134,8 @@ Examples of **incorrect** code for this rule with `{"allowSamePrecedence": false
 ```js
 /*eslint no-mixed-operators: ["error", {"allowSamePrecedence": false}]*/
 
-// + and - have the same precedence.
-var foo = a + b - c;
+// + and * have different precedence.
+var foo = a + b * c;
 ```
 
 ## When Not To Use It
